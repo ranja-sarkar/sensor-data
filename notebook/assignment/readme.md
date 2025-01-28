@@ -28,8 +28,11 @@ Algorithms like Random Forest or Gradient Boosting often perform better with imb
 
 >> test_model.py
 
+
 import unittest
+
 import numpy as np
+
 from sklearn.ensemble import RandomForestClassifier
 
 class TestModel(unittest.TestCase):
@@ -67,8 +70,12 @@ class TestModel(unittest.TestCase):
         # Assert that the model handles edge cases without crashing
         self.assertIsNotNone(prediction)
 
+
 if __name__ == '__main__':
+
     unittest.main()
+
+
 
 >> python -m pytest test_model.py
 

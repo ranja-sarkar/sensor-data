@@ -18,7 +18,6 @@ In real-time,
 
 >> test_model.py
 
-
 import unittest
 
 import numpy as np
@@ -26,45 +25,32 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
 class TestModel(unittest.TestCase):
+
     def setUp(self):
-        # Initialize the model or load a pre-trained model
-        self.model = RandomForestClassifier()
-        # Mock training for simplicity
+        self.model = RandomForestClassifier()             #you may load a pre-trained model
         X_train = np.array([[1, 2], [2, 3], [3, 4]])
         y_train = np.array([0, 1, 1])
         self.model.fit(X_train, y_train)
         
-        # Define test data and expected results
         self.test_data = np.array([[1, 2], [3, 4], [2, 2]])
-        self.expected_labels = np.array([0, 1, 1])  # Expected outputs
+        self.expected_labels = np.array([0, 1, 1])        #Expected output
 
     def test_model_output_shape(self):
-        # Predict using the model
         predictions = self.model.predict(self.test_data)
-        
-        # Assert that the output shape matches the input data shape
-        self.assertEqual(predictions.shape[0], self.test_data.shape[0])
+        self.assertEqual(predictions.shape[0], self.test_data.shape[0])    #matching data shapes
 
     def test_model_output_correctness(self):
-        # Predict using the model
         predictions = self.model.predict(self.test_data)
-        
-        # Assert that the predictions match expected labels
         np.testing.assert_array_equal(predictions, self.expected_labels)
 
     def test_model_edge_cases(self):
-        # Test with edge cases
-        edge_case_data = np.array([[0, 0]])  # Example of edge case input
+        edge_case_data = np.array([[0, 0]])           #Example of edge-case input
         prediction = self.model.predict(edge_case_data)
-        
-        # Assert that the model handles edge cases without crashing
         self.assertIsNotNone(prediction)
-
-
+        
 if __name__ == '__main__':
-
+    
     unittest.main()
-
 
 
 >> python -m pytest test_model.py

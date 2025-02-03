@@ -1,6 +1,9 @@
 
--> Instead of classifying each data point, use a model to detect change points where the label transitions.
--> Define transition rules to avoid unrealistic segments (e.g. short bursts of ACTIVE in the middle of OFF).
+In real-time, 
+
+-> instead of classifying each data point, use a model to detect change points where the label transitions.
+
+-> define transition rules to avoid unrealistic segments (e.g. short bursts of ACTIVE in the middle of OFF).
 
 
 **Regression Testing**

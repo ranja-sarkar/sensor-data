@@ -6,11 +6,10 @@
 **Regression Testing**
 
 -> Set thresholds for acceptable performance
--> Edge Cases 
--> Pairwise Agreement Analysis
--> Class-level Analysis
--> Use statistical tests to ensure observed differences in metrics are not due to random variations
--> changes in features, model architecture, or hyperparameters, bugs in preprocessing or post-processing data pipelines, shifts in data distribution.
+
+-> Test for edge or corner cases
+
+-> Use statistical tests to ensure observed differences in metrics are not due to random variations dut due to changes in features, model parameters or bugs in preprocessing or post-processing data pipelines, shifts in data distribution.
 
 **Unit Testing**
 

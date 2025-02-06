@@ -31,11 +31,25 @@ Changes in signals can take different forms. A change point is an abrupt change 
 
 1. Change in mean
 
-2. Change in variance
+   <img width="404" alt="rs1" src="https://github.com/user-attachments/assets/724a753e-a14f-454c-ac13-8772e9f9149e" />
 
-3. Change in periodicity/frequency
 
-4. Change in pattern
+3. Change in variance
+
+   
+<img width="389" alt="rs2" src="https://github.com/user-attachments/assets/68e11498-94fe-4689-8d7d-fb121684272d" />
+
+5. Change in periodicity/frequency
+
+   <img width="410" alt="rs3" src="https://github.com/user-attachments/assets/a14a791b-4a1d-40f5-8737-f9fe773d3d2a" />
+
+
+7. Change in pattern
+
+  <img width="399" alt="rs4" src="https://github.com/user-attachments/assets/4fb80be4-9a95-40aa-b49b-20ecb7bd7e14" />
+
+  #TO BE CONTINUED ..
+ 
 
    
 

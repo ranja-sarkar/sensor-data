@@ -5,7 +5,9 @@ It deals with the transformation of a signal from time-series to hyper-spectral 
 An accelerometer measures engine vibrations. By analysing the **vibration data** we can infer whether it is ACTIVE, IDLE or OFF, and also test and diagnose machine faults.
 Such engines can be that of electric vehicles (cars, bikes), or off-highway vehicles (wheeled-loaders, dump trucks, excavators), and others.
 
-<img width="466" alt="12" src="https://github.com/user-attachments/assets/c36ca8ed-8831-4070-994a-52470f7917fe" />
+<img width="667" alt="rs2" src="https://github.com/user-attachments/assets/41baa0e4-98e4-461d-b1e2-87645ec62dbd" />
+<img width="668" alt="rs1" src="https://github.com/user-attachments/assets/256359c2-20f7-4313-9fae-887b4f8ef1ca" />
+
 
 [IDLE -> engine is running but the vehicle is not moving; ACTIVE -> engine is running and the vehicle is moving; OFF -> engine is off]
 

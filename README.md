@@ -2,16 +2,6 @@
 
 It deals with the transformation of a signal from time-series to hyper-spectral images, which are obtained from different electromagnetic measurements. Spectrograms and wavelet transforms are often used in machine learning as input data. 
 
-An accelerometer measures engine vibrations. By analysing the **vibration data** we can infer whether it is ACTIVE, IDLE or OFF, and also test and diagnose machine faults.
-Such engines can be that of electric vehicles (cars, bikes), or off-highway vehicles (wheeled-loaders, dump trucks, excavators), and others.
-
-<img width="667" alt="rs2" src="https://github.com/user-attachments/assets/41baa0e4-98e4-461d-b1e2-87645ec62dbd" />
-<img width="668" alt="rs1" src="https://github.com/user-attachments/assets/256359c2-20f7-4313-9fae-887b4f8ef1ca" />
-
-
-[IDLE -> engine is running but the vehicle is not moving; ACTIVE -> engine is running and the vehicle is moving; OFF -> engine is off]
-
-
 The **Chapter 1** of my book has a small portion covered on **signal processing**.
 
 <img width="176" alt="rs5" src="https://github.com/user-attachments/assets/0b22cd8b-bf5d-4e5c-9796-b689c2476131" />
@@ -21,7 +11,6 @@ Buy from Amazon: https://a.co/d/2kE7aeq
 An excerpt from my book: 
 
 <img width="422" alt="rs7" src="https://github.com/user-attachments/assets/035623d8-5c24-48cd-870b-4fd82fe5824f" />
-
 
 The classic Kalman Filter is used in signal processing to produce estimates of unknown (dynamic) variables at each time step using time-series data. It is covered in **Chapter 7** of my book. 
 
@@ -38,7 +27,17 @@ https://blog.endaq.com/vibration-analysis-fft-psd-and-spectrogram
 
 https://blog.endaq.com/top-vibration-metrics-to-monitor-how-to-calculate-them
 
-**Change point detection in time-series data:**
+As an example, we think of an accelerometer that measures engine vibrations. By analysing the **vibration data** we can infer whether it is ACTIVE, IDLE or OFF, and also test and diagnose machine faults.
+Such engines can be that of electric vehicles (cars, bikes), or off-highway vehicles (wheeled-loaders, dump trucks, excavators), and others.
+
+<img width="667" alt="rs2" src="https://github.com/user-attachments/assets/41baa0e4-98e4-461d-b1e2-87645ec62dbd" />
+<img width="668" alt="rs1" src="https://github.com/user-attachments/assets/256359c2-20f7-4313-9fae-887b4f8ef1ca" />
+
+[IDLE -> engine is running but the vehicle is not moving; ACTIVE -> engine is running and the vehicle is moving; OFF -> engine is off]
+
+
+
+**Change point detection in time-series data**
 
 Changes in signals can take different forms. A change point is an abrupt change in a time-series, meaning a change in the underlying trend, frequencies, or probability distribution.
 

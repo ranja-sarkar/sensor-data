@@ -5,12 +5,8 @@ The egines are that of excavators, wheeled-loaders, dump trucks etc.
 
 <img width="466" alt="12" src="https://github.com/user-attachments/assets/c36ca8ed-8831-4070-994a-52470f7917fe" />
 
+[IDLE -> engine is running but the vehicle is not moving; ACTIVE -> engine is running and the vehicle is moving; OFF -> engine is off]
 
-IDLE -> engine is running but the vehicle is not moving.
-
-ACTIVE -> engine is running and the vehicle is moving.
-
-OFF -> engine is off
 
 The **Chapter 1** of my book has a small portion covered on **signal processing**.
 

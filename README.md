@@ -1,7 +1,6 @@
 # Signal processing
 
 An accelerometer measures engine vibrations. By analysing the **vibration data** we can infer whether it is ACTIVE, IDLE or OFF, and also test and diagnose machine faults.
-The egines are that of excavators, wheeled-loaders, dump trucks etc.
 
 <img width="466" alt="12" src="https://github.com/user-attachments/assets/c36ca8ed-8831-4070-994a-52470f7917fe" />
 

@@ -12,6 +12,21 @@ ACTIVE -> engine is running and the vehicle is moving.
 
 OFF -> engine is off
 
+The **Chapter 1** of my book has a small portion covered on **signal processing**.
+
+<img width="176" alt="rs5" src="https://github.com/user-attachments/assets/0b22cd8b-bf5d-4e5c-9796-b689c2476131" />
+
+Buy from Amazon: https://a.co/d/2kE7aeq
+
+An excerpt from my book: 
+
+<img width="422" alt="rs7" src="https://github.com/user-attachments/assets/035623d8-5c24-48cd-870b-4fd82fe5824f" />
+
+
+
+The classic Kalman Filter is used in signal processing to produce estimates of unknown (dynamic) variables at each time step using time-series data. It is covered in **Chapter 7** of my book. 
+However, understanding the fundamentals of a signal and analysing it is foremost. 
+
 **Fast Fourier Transform (FFT)** of vibration signal:
 
 <img width="337" alt="12" src="https://github.com/user-attachments/assets/165cd62f-3a0a-4648-942c-1683449e0ace" />

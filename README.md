@@ -23,9 +23,9 @@ An excerpt from my book:
 <img width="422" alt="rs7" src="https://github.com/user-attachments/assets/035623d8-5c24-48cd-870b-4fd82fe5824f" />
 
 
-
 The classic Kalman Filter is used in signal processing to produce estimates of unknown (dynamic) variables at each time step using time-series data. It is covered in **Chapter 7** of my book. 
-However, understanding the fundamentals of a signal and analysing it is foremost. 
+
+However, understanding the fundamentals of a signal and analysing it is foremost which to an extent is covered in this repo. 
 
 **Fast Fourier Transform (FFT)** of vibration signal:
 

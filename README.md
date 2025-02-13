@@ -59,6 +59,8 @@ For more: https://sarem-seitz.com/posts/probabilistic-cusum-for-change-point-det
 
 5. **Change in periodicity/frequency**
 
+Detection of this kind of change is typically done in the frequency (not time) domain of the signal, for example by  using Fourier transform or Wavelet transform.   
+
    <img width="410" alt="rs3" src="https://github.com/user-attachments/assets/a14a791b-4a1d-40f5-8737-f9fe773d3d2a" />
 
 

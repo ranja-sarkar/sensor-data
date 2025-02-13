@@ -66,6 +66,10 @@ Detection of this kind of change is typically done in the frequency (not time) d
 
 7. **Change in pattern**
 
+To detect this kind of change is harder than the previous ones. 
+
+Change point detection seems to be closely related to anomaly detection; the difference between the two tasks is sometimes unclear.
+
   <img width="399" alt="rs4" src="https://github.com/user-attachments/assets/4fb80be4-9a95-40aa-b49b-20ecb7bd7e14" />
 
   # TO BE CONTINUED ..

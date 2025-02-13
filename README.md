@@ -52,6 +52,8 @@ For more: https://sarem-seitz.com/posts/probabilistic-cusum-for-change-point-det
 
 
 3. **Change in variance**
+
+   There can be segments in the time-series with different variance values, which appear as sudden noise in the signal. 
    
 <img width="389" alt="rs2" src="https://github.com/user-attachments/assets/68e11498-94fe-4689-8d7d-fb121684272d" />
 

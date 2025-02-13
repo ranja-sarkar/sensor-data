@@ -39,11 +39,14 @@ Such engines can be that of electric vehicles (cars, bikes), or off-highway vehi
 
 **Change point detection in time-series data**
 
-Changes in signals can take different forms. A change point is an abrupt change in a time-series, meaning a change in the underlying trend, frequencies, or probability distribution.
+Changes in signals can take different forms. A change point is an abrupt change in a time-series, meaning a change in the (statistical characteristics) underlying trend, frequencies, or probability distribution.
 
 **Types of change points:**
 
 1. **Change in mean**
+
+One of the earliest algorithms for detecting change in mean is the Cusum algorithm, applied for quality control in manufacturing.
+For more: https://sarem-seitz.com/posts/probabilistic-cusum-for-change-point-detection.html
 
    <img width="404" alt="rs1" src="https://github.com/user-attachments/assets/724a753e-a14f-454c-ac13-8772e9f9149e" />
 

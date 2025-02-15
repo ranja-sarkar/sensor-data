@@ -72,6 +72,10 @@ Change point detection seems to be closely related to anomaly detection; the dif
 
   <img width="399" alt="rs4" src="https://github.com/user-attachments/assets/4fb80be4-9a95-40aa-b49b-20ecb7bd7e14" />
 
+change-point detection in time-series via deep learning: https://academic.oup.com/jrsssb/article/86/2/273/7517020
+
+
+
   # TO BE CONTINUED ..
  
 

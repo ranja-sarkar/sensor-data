@@ -72,7 +72,16 @@ Change point detection seems to be closely related to anomaly detection; the dif
 
   <img width="399" alt="rs4" src="https://github.com/user-attachments/assets/4fb80be4-9a95-40aa-b49b-20ecb7bd7e14" />
 
-change-point detection in time-series via deep learning: https://academic.oup.com/jrsssb/article/86/2/273/7517020
+
+**Commonly used python packages/libraries for change-point detection:**
+
+1. ruptures: https://centre-borelli.github.io/ruptures-docs/
+
+2. prophet: https://facebook.github.io/prophet/docs/trend_changepoints.html#automatic-changepoint-detection-in-prophet
+
+3. luminaire: https://zillow.github.io/luminaire/tutorial/dataprofiling.html
+   
+Change-point detection in time-series via deep learning: https://academic.oup.com/jrsssb/article/86/2/273/7517020
 
 
 

@@ -83,6 +83,7 @@ Change point detection seems to be closely related to anomaly detection; the dif
    
 Change-point detection in time-series via deep learning: https://academic.oup.com/jrsssb/article/86/2/273/7517020
 
+A survey of methods for time-series Change Point Detection: https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/
 
 
   # TO BE CONTINUED ..

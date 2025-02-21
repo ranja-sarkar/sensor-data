@@ -80,7 +80,10 @@ Change point detection seems to be closely related to anomaly detection; the dif
 2. prophet: https://facebook.github.io/prophet/docs/trend_changepoints.html#automatic-changepoint-detection-in-prophet
 
 3. luminaire: https://zillow.github.io/luminaire/tutorial/dataprofiling.html
-   
+
+
+Statistical methods for change-point detection: https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=911926#:~:text=The%20methods%20for%20change%2Dpoint,applicable%20to%20single%20station%20records.
+
 Change-point detection in time-series via deep learning: https://academic.oup.com/jrsssb/article/86/2/273/7517020
 
 A survey of methods for time-series Change Point Detection: https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/

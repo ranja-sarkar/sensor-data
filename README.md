@@ -51,20 +51,20 @@ For more: https://sarem-seitz.com/posts/probabilistic-cusum-for-change-point-det
    <img width="404" alt="rs1" src="https://github.com/user-attachments/assets/724a753e-a14f-454c-ac13-8772e9f9149e" />
 
 
-3. **Change in variance**
+2. **Change in variance**
 
    There can be segments in the time-series with different variance values, which appear as sudden noise in the signal. 
    
 <img width="389" alt="rs2" src="https://github.com/user-attachments/assets/68e11498-94fe-4689-8d7d-fb121684272d" />
 
-5. **Change in periodicity/frequency**
+3. **Change in periodicity/frequency**
 
 Detection of this kind of change is typically done in the frequency (not time) domain of the signal, for example by  using Fourier transform or Wavelet transform.   
 
    <img width="410" alt="rs3" src="https://github.com/user-attachments/assets/a14a791b-4a1d-40f5-8737-f9fe773d3d2a" />
 
 
-7. **Change in pattern**
+4. **Change in pattern**
 
 To detect this kind of change is harder than the previous ones. 
 

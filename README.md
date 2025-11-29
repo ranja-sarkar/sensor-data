@@ -1,13 +1,21 @@
-# Signal processing
 
-It deals with the transformation of a signal from time-series to hyper-spectral images, which are obtained from different electromagnetic measurements. Spectrograms and wavelet transforms are often used in machine learning as input data. 
-
-The **Chapter 1** of my book has a small portion covered on **signal processing**.
+**Chapter 1** of my book has a portion covered on **signal processing**. Signal processing is the transformation of a signal from time-series to hyper-spectral images, which are obtained from different electromagnetic measurements. Spectrograms and wavelet transforms are often used as inputs to machine learning algorithms.
 
 <img width="176" alt="rs5" src="https://github.com/user-attachments/assets/0b22cd8b-bf5d-4e5c-9796-b689c2476131" />
 
 Buy from Amazon: https://a.co/d/2kE7aeq
 
+-----
+
+Manufacturing industries have evolved over 3 centuries with electrification, automation, and digitalization – from steam to sensor, or Industry 1.0 to Industry 4.0. 
+
+The first industrial revolution (Industry 1.0) was seen with steam engines during the end of 18th century and start of 19th century. Entire 19th century thereafter was Industry 2.0, which experienced mass production (assembly lines) with electric power. In the 20th century, Industry 3.0 saw automated, intelligent production line using electronics and hashtag#IT. The 21st century saw the advent of digitalization, internet of things (IoT), and sensor. Algorithmic computation largely evolved from the period of Industry 3.0 and was put into use.
+
+Industry 4.0 in the 21st century is about smart manufacturing. Artificial Intelligence (AI) started evolving from Industry 3.0 – it’s like only machine learning during Industry 3.0, machine learning alongwith deep learning (neural networks) during Industry 4.0 and GPTs (generative AI) currently are emerging pretty fast as sub-fields of AI. This means connected and integrated systems, huge data sharing via managed cloud services efficiently, which allow manufacturers to respond to customers’ feedback by not compromising on quality etc..  
+
+The adoption of large language models (LLMs) for analysing a customer and his buying behavior is expected to significantly enhance product development and customer experience (his preferences etc.). This enables creation of highly personalized systems. Personalization of integrated plus smart systems would perhaps be next in Industry 5.0 (mid to end of 21st century). 
+
+-----
 An excerpt from my book: 
 
 <img width="422" alt="rs7" src="https://github.com/user-attachments/assets/035623d8-5c24-48cd-870b-4fd82fe5824f" />
@@ -35,7 +43,7 @@ Such engines can be that of electric vehicles (cars, bikes), or off-highway vehi
 
 [IDLE -> engine is running but the vehicle is not moving; ACTIVE -> engine is running and the vehicle is moving; OFF -> engine is off]
 
-
+------
 
 **Change point detection in time-series data**
 
@@ -72,15 +80,17 @@ Change point detection seems to be closely related to anomaly detection; the dif
 
   <img width="399" alt="rs4" src="https://github.com/user-attachments/assets/4fb80be4-9a95-40aa-b49b-20ecb7bd7e14" />
 
+-----
 
 **Commonly used python packages/libraries for change-point detection:**
 
-i. ruptures: https://centre-borelli.github.io/ruptures-docs/
+1. ruptures: https://centre-borelli.github.io/ruptures-docs/
 
-ii. prophet: https://facebook.github.io/prophet/docs/trend_changepoints.html#automatic-changepoint-detection-in-prophet
+2. prophet: https://facebook.github.io/prophet/docs/trend_changepoints.html#automatic-changepoint-detection-in-prophet
 
-iii. luminaire: https://zillow.github.io/luminaire/tutorial/dataprofiling.html
+3. luminaire: https://zillow.github.io/luminaire/tutorial/dataprofiling.html
 
+# References
 
 Change-point detection in time-series via deep learning: https://academic.oup.com/jrsssb/article/86/2/273/7517020
 

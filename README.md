@@ -46,9 +46,7 @@ ACTIVE -> engine is running and the vehicle is moving;
 
 OFF -> engine is off
 
-------
-
-**Change point detection in time-series data**
+# Change point detection in time-series data
 
 Changes in signals can take different forms. A change point is an abrupt change in a time-series, meaning a change in the (statistical characteristics) underlying trend, frequencies, or probability distribution.
 
@@ -100,7 +98,6 @@ Change-point detection in time-series via deep learning: https://academic.oup.co
 A survey of methods for time-series Change Point Detection: https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/
 
 
-  # TO BE CONTINUED ..
  
 
    

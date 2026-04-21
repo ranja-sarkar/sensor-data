@@ -83,13 +83,7 @@ Change point detection seems to be closely related to anomaly detection; the dif
 
 -----
 
-**Commonly used python packages/libraries for change point detection:**
-
-1. ruptures: https://centre-borelli.github.io/ruptures-docs/
-
-2. prophet: https://facebook.github.io/prophet/docs/trend_changepoints.html#automatic-changepoint-detection-in-prophet
-
-3. luminaire: https://zillow.github.io/luminaire/tutorial/dataprofiling.html
+**Commonly used python packages/libraries for change point detection:** are [ruptures](https://centre-borelli.github.io/ruptures-docs/), [prophet](https://facebook.github.io/prophet/docs/trend_changepoints.html#automatic-changepoint-detection-in-prophet), and [luminaire](https://zillow.github.io/luminaire/tutorial/dataprofiling.html)
 
 # References
 

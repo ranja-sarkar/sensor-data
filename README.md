@@ -1,8 +1,6 @@
 
 **Chapter 1** of my [book](https://www.amazon.com/dp/1804616702?ref=cm_sw_r_ffobk_cp_ud_dp_XZZZH4S92PNS2KJB3KVF&ref_=cm_sw_r_ffobk_cp_ud_dp_XZZZH4S92PNS2KJB3KVF&social_share=cm_sw_r_ffobk_cp_ud_dp_XZZZH4S92PNS2KJB3KVF&bestFormat=true) has a portion covered on **signal processing**. Signal processing is the transformation of a measured signal from time-series to hyper-spectral images. Spectrograms and wavelet transforms are often used as inputs to machine learning algorithms.
 
------
-
 Manufacturing industries have evolved over 3 centuries with electrification, automation, and digitalization – from steam to sensor, or Industry 1.0 to Industry 4.0. 
 
 The first industrial revolution (Industry 1.0) was seen with steam engines during the end of 18th century and start of 19th century. Entire 19th century thereafter was Industry 2.0, which experienced mass production (assembly lines) with electric power. In the 20th century, Industry 3.0 saw automated, intelligent production line using electronics and hashtag#IT. The 21st century saw the advent of digitalization, internet of things (IoT), and sensor. Algorithmic computation largely evolved from the period of Industry 3.0 and was put into use.
@@ -81,7 +79,6 @@ Change point detection seems to be closely related to anomaly detection; the dif
 
   <img width="399" alt="rs4" src="https://github.com/user-attachments/assets/4fb80be4-9a95-40aa-b49b-20ecb7bd7e14" />
 
------
 
 **Commonly used python packages/libraries for change point detection:** are [ruptures](https://centre-borelli.github.io/ruptures-docs/), [prophet](https://facebook.github.io/prophet/docs/trend_changepoints.html#automatic-changepoint-detection-in-prophet), and [luminaire](https://zillow.github.io/luminaire/tutorial/dataprofiling.html)
 

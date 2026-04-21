@@ -1,5 +1,5 @@
 
-**Chapter 1** of my book has a portion covered on **signal processing**. Signal processing is the transformation of a signal from time-series to hyper-spectral images, which are obtained from different electromagnetic measurements. Spectrograms and wavelet transforms are often used as inputs to machine learning algorithms.
+**Chapter 1** of my book has a portion covered on **signal processing**. Signal processing is the transformation of a measured signal from time-series to hyper-spectral images. Spectrograms and wavelet transforms are often used as inputs to machine learning algorithms.
 
 <img width="176" alt="rs5" src="https://github.com/user-attachments/assets/0b22cd8b-bf5d-4e5c-9796-b689c2476131" />
 

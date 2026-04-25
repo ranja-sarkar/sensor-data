@@ -17,7 +17,6 @@ An excerpt from my book:
 
 The classic Kalman Filter is used in signal processing to produce estimates of unknown (dynamic) variables at each time step using time-series data. It is covered in **Chapter 7** of my book.  However, understanding the fundamentals of a [vibratiion signal](https://blog.endaq.com/top-vibration-metrics-to-monitor-how-to-calculate-them) and analysing it is foremost. Analyzing the trends of vibration metrics would inform decisions for condition-based or predictive maintenance.
 
------
 
 # Fast Fourier Transform of time-series signal
 
@@ -71,7 +70,7 @@ Change point detection seems to be closely related to anomaly detection; the dif
   <img width="399" alt="rs4" src="https://github.com/user-attachments/assets/4fb80be4-9a95-40aa-b49b-20ecb7bd7e14" />
 
 
-**Commonly used python packages/libraries for change point detection:** are [ruptures](https://centre-borelli.github.io/ruptures-docs/), [sktime](https://github.com/sktime/sktime), and [luminaire](https://zillow.github.io/luminaire/tutorial/dataprofiling.html)
+**Commonly used python packages/libraries for change point detection:** are [ruptures](https://centre-borelli.github.io/ruptures-docs/), [sktime](https://github.com/sktime/sktime), and [luminaire](https://zillow.github.io/luminaire/tutorial/dataprofiling.html).
 
 # References
 

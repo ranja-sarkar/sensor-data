@@ -20,7 +20,7 @@ However, understanding the fundamentals of a signal and analysing it is foremost
 
 -----
 
-# Fast Fourier Transform (FFT) of time-series signal
+# Fast Fourier Transform of time-series signal
 
 <img width="337" alt="12" src="https://github.com/user-attachments/assets/165cd62f-3a0a-4648-942c-1683449e0ace" />
 <img width="365" alt="13" src="https://github.com/user-attachments/assets/3698b7ab-1dbd-4226-8cfb-71ef66b041e6" />
@@ -80,9 +80,9 @@ Change point detection seems to be closely related to anomaly detection; the dif
 
 # References
 
-Change-point detection in time-series via deep learning: https://academic.oup.com/jrsssb/article/86/2/273/7517020
+1. [Change-point detection in time-series via deep learning](https://academic.oup.com/jrsssb/article/86/2/273/7517020)
 
-A survey of methods for time-series Change Point Detection: https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/
+2. (A survey of methods for time-series Change Point Detection](https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/)
 
 
  

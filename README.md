@@ -15,25 +15,20 @@ An excerpt from my book:
 
 <img width="422" alt="rs7" src="https://github.com/user-attachments/assets/035623d8-5c24-48cd-870b-4fd82fe5824f" />
 
-The classic Kalman Filter is used in signal processing to produce estimates of unknown (dynamic) variables at each time step using time-series data. It is covered in **Chapter 7** of my book. 
-However, understanding the fundamentals of a signal and analysing it is foremost.  
+The classic Kalman Filter is used in signal processing to produce estimates of unknown (dynamic) variables at each time step using time-series data. It is covered in **Chapter 7** of my book.  However, understanding the fundamentals of a [vibratiion signal](https://blog.endaq.com/top-vibration-metrics-to-monitor-how-to-calculate-them) and analysing it is foremost. Analyzing the trends of vibration metrics would inform decisions for condition-based or predictive maintenance.
 
 -----
 
 # Fast Fourier Transform of time-series signal
 
+Any waveform is actually just the sum of a series of simple sinusoids of different frequencies, amplitudes, and phases.  A Fourier series is that series of sine waves; and we use Fourier analysis or spectrum analysis to deconstruct a signal into its individual sine wave components. 
+
+A fast Fourier transform ([FFT](https://blog.endaq.com/vibration-analysis-fft-psd-and-spectrogram)) is a discrete Fourier transform (DFT) using a more efficient algorithm that takes advantage of the symmetry in sine waves.
+
 <img width="337" alt="12" src="https://github.com/user-attachments/assets/165cd62f-3a0a-4648-942c-1683449e0ace" />
 <img width="365" alt="13" src="https://github.com/user-attachments/assets/3698b7ab-1dbd-4226-8cfb-71ef66b041e6" />
 
-Useful blogs: 
-
-https://blog.endaq.com/vibration-analysis-fft-psd-and-spectrogram
-
-https://blog.endaq.com/top-vibration-metrics-to-monitor-how-to-calculate-them
-
-
-As an **example**, we think of an accelerometer that measures engine vibrations or yields vibration signal. By analysing the **vibration data** we can infer whether it is ACTIVE (engine is running and the vehicle is moving), IDLE (engine is running but the vehicle is not moving) or OFF (engine is off), and also test and diagnose machine faults.
-Such engines can be that of electric vehicles (cars, bikes), or off-highway vehicles (wheeled-loaders, dump trucks, excavators), and others.
+As an **example**, we think of an accelerometer that measures engine vibrations or yields vibration signal. By analysing the **vibration data** we can infer whether it is ACTIVE (engine is running and the vehicle is moving), IDLE (engine is running but the vehicle is not moving) or OFF (engine is off), and also test and diagnose machine faults. Such engines can be that of electric vehicles (cars, bikes), or off-highway vehicles (wheeled-loaders, dump trucks, excavators), and others.
 
 <img width="667" alt="rs2" src="https://github.com/user-attachments/assets/41baa0e4-98e4-461d-b1e2-87645ec62dbd" />
 <img width="668" alt="rs1" src="https://github.com/user-attachments/assets/256359c2-20f7-4313-9fae-887b4f8ef1ca" />
@@ -82,7 +77,7 @@ Change point detection seems to be closely related to anomaly detection; the dif
 
 1. [Change-point detection in time-series via deep learning](https://academic.oup.com/jrsssb/article/86/2/273/7517020)
 
-2. (A survey of methods for time-series Change Point Detection](https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/)
+2. [A survey of methods for time-series Change Point Detection](https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/)
 
 
  
